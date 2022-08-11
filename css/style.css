@@ -37,6 +37,7 @@
         -ms-flex-direction: column;
             flex-direction: column;
     gap: 0.3rem;
+    padding: 0rem;
   }
 }
 
@@ -88,6 +89,12 @@
   margin-right: 40px;
 }
 
+@media only screen and (max-width: 768px) {
+  .hero__section h1 {
+    margin: 0;
+  }
+}
+
 .hero__section input {
   outline: none;
   background: #fafafa;
@@ -113,9 +120,19 @@
   }
 }
 
+@media only screen and (max-width: 430px) {
+  .hero__section input {
+    width: 350px;
+    padding: 12px 10px;
+    font-size: 15px;
+  }
+}
+
 @media only screen and (max-width: 360px) {
   .hero__section input {
-    width: 300px;
+    width: 280px;
+    padding: 12px 10px;
+    font-size: 15px;
   }
 }
 
