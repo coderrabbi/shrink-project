@@ -80,9 +80,7 @@
         -ms-flex-direction: column;
             flex-direction: column;
     gap: 1rem;
-  }
-  .hero__section button {
-    border-radius: 8px;
+    padding: 3rem 20px;
   }
 }
 
